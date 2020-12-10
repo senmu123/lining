@@ -1,0 +1,253 @@
+/**--------------------生日弹出层-----------------------------------------------**/
+	/*显示隐藏层*/
+	#hidebg{ 
+		position:fixed;left:0px;top:0px;
+		background-color:#CCCCCC;
+		width:100%;  /*宽度设置为100%，这样才能使隐藏背景层覆盖原页面*/
+		filter:alpha(opacity=60);  /*设置透明度为60%*/
+		opacity:0.3;  /*非IE浏览器下设置透明度为60%*/
+		display:none;  /*http://www.jb51.net */
+		z-Index:2;
+	}
+	/*------------------生日卡弹出层------------------*/
+	#hideCard{
+		position:absolute; 
+		/*position:fixed;*/
+		width:650px;
+		height:476px;
+		top:15%;
+		left:23%;
+		display:none;
+		background-color:#000;
+		z-Index:8;
+	}
+	/**关闭层**/
+	.cardButton{
+	    /*border: 1px solid red; */   
+	    height: 30px;
+	    right: 9px;
+	    top: 11px;
+	    width: 33px; 
+	    position: absolute;/*绝对定位*/
+	    cursor: pointer; /*手抓形状*/
+	}
+	/**领取红包**/
+	.cardGift{
+	    /*border: 1px solid #020202;*/ 
+	    bottom: 83px;
+	    height: 55px;
+	    left: 100px;
+	    width: 206px;
+		position: absolute;/*绝对定位*/
+	    cursor: pointer; /*手抓形状*/
+	}
+	/**拆开红包**/
+	.cardPacket{
+	    /*border: 1px solid #020202;*/ 
+	    bottom: 83px;
+	    height: 55px;
+	    left: 331px;
+	    width: 200px;
+		position: absolute;/*绝对定位*/
+	    cursor: pointer; /*手抓形状*/
+	}
+	/**不在提醒**/
+	.cardRemind{
+	  	/*border: 1px solid #020202;*/
+		bottom: 41px;
+		left: 233px;
+		position: absolute;
+		position: absolute;/*绝对定位*/
+		vertical-align:middle; margin:0;
+	}
+	/*------------------生日红包弹出层------------------*/
+	#bir_hidebox{
+		position:absolute; 
+		/* position:fixed;*/
+		width:755px;
+		height:552px;
+		top:15%;
+		left:20%;
+		display:none;
+		background-color:#E7E7E9;
+		z-Index:8;
+	}
+	/*关闭按钮*/
+	.bir_closeButton{
+	    /*border: 1px solid red; */     
+		cursor: pointer;display:block; float:right; margin:10px; right:50px; 
+	}
+	/*已绑定手机*/
+	.linked {display:none; z-Index:8;}
+	.titlelink{padding-left:150px;letter-spacing:2px;font-weight:700;font-size:16px; color:#992C2B;}
+	/*￥20*/
+	.linkedMoney{bottom:351px;height:54px;left:217px;width:120px;position: absolute;}
+	/*信息*/
+	.giftInfos{bottom: 66px;color: #f0f0f0;font-size: 13px; height: 107px;left: 168px;line-height: 21px;position: absolute;width: 350px;}
+	/*立即领取*/
+	.linkgetGift{
+	    /*border: 1px solid #020202;*/
+	    bottom: 196px;
+	    cursor: pointer;
+	    height: 46px;
+	    left: 156px;
+	    position: absolute;
+	    width: 447px;
+	}
+
+	/*未绑定手机*/
+	.unlink  {display:none;}
+	/*￥20*/
+	.unlinkMoney{
+	    /*border: 1px solid #020202;*/
+	    bottom: 240px;
+	    height: 54px;
+	    left: 233px;
+	    width: 120px;    
+		position: absolute;/*绝对定位*/
+	}
+	/*信息*/
+	.giftInfo{
+	    /*border: 1px solid #020202;*/
+	    bottom: 35px;
+	    color: #f0f0f0;
+	    font-size: 13px;
+	    height: 107px;
+	    left: 215px;
+	    line-height: 21px;
+	    position: absolute;
+	    width: 350px;
+	}
+	/*立即领取*/
+	.getGift{
+	    /*border: 1px solid #020202;*/
+	    bottom: 147px;/**/
+	    height: 46px;
+	    left: 215px;
+	    cursor: pointer; /*手抓形状*/
+	    position: absolute;/*绝对定位*/
+	    width: 317px; 
+	}
+	/*短信验证*/
+	.sendInfo {
+		background-color: #D0D0D0;
+		cursor: pointer;
+		font-size: 15px;
+		height: 28px;
+		line-height: 28px;
+		margin: 10px 0 10px 151px;
+		text-align: center;
+		width: 240px;
+		display:block;
+		font-weight: 700;
+	}
+	
+	/*已领取红包*/
+	.get {display:none;}
+	
+	.getmoney{padding-left:231px;letter-spacing:2px;font-size:20px; color:#992C2B;}	
+	.getMoneyImg{bottom: 220px; height: 54px; left: 284px; width: 120px; position: absolute;}
+	.getInfo{bottom:-8px; height:54px; left:219px; position:absolute; font-size: 15px;}
+	
+	/*未领取红包*/
+	.unget {display:none;padding-left:230px; letter-spacing:2px; font-size:15px; padding-top:44px;font-weight:700;position:relative;}
+	/*返回按钮*/
+	.reunget{
+		background:#FFFFFF; 
+		border: 1.5px solid #969697;
+		float: right;
+		font-weight: bold;
+		height: 27px;
+		line-height: 32px;
+		margin-right: 353px;
+		margin-top: 153px;
+		padding-top: 10px;
+		text-align: center;
+		width: 102px;
+		cursor:pointer;
+	}
+	/*------------------旧订单换礼品------------------*/
+	#hideCont{
+		position:absolute; 
+		/* position:fixed;*/
+		width:755px;
+		height:552px;
+		top:15%;
+		left:23%;
+		display:none;
+		background-color:#E7E7E9;
+		z-index:9;
+	}
+	/*关闭按钮*/
+	.closeGift{
+		/*border: 1px solid red;*/
+		cursor: pointer;/*手抓形状*/
+		height: 33px;
+		position: absolute;/*绝对定位*/
+		right: 17px;
+		top: 11px;
+		width: 33px;
+	}
+	/*不再提醒*/
+	.noRemind{
+		border: 1px solid #020202;
+		bottom: 96px;
+		left: 443px;
+		margin: 0;
+		position: absolute;/*绝对定位*/
+		vertical-align: middle;
+	}
+	/*旧订单换礼品*/
+	.billGift{
+	    /*border: 1px solid #020202;*/
+	    bottom: 169px;
+	    cursor: pointer;
+	    height: 55px;
+	    left: 439px;
+	    position: absolute;
+	    width: 217px;
+	}
+	/*-----------------会员升级礼包---------------------*/
+	#custUpgrade{
+		position:absolute; 
+		/*position:fixed;*/
+		width:750px;
+		height:550px;
+		top:15%;
+		left:23%;
+		/*background:url('https://cdns.lining.com/shop/lining/theme/xth2/images/member/gradeBack.gif') no-repeat;*/
+		background:url('https://cdns.lining.com/shop/lining/theme/xth2/images/member/gradeBack.jpg') no-repeat;
+		z-index:8;
+	}
+	#custUpgrade .closeUpgrade{
+		/*border: 1px solid #020202;*/
+	    height: 32px;
+	    right: 13px;
+	    top: 16px;
+	    width: 33px; 
+	    position: absolute;/*绝对定位*/
+	    cursor: pointer; /*手抓形状*/
+	}
+        #custUpgrade img {width:125px;height:68px;display:block;position:absolute;top:155px;left:368px;}
+        #custUpgrade .giftInfo {width:214px;height:46px;position:absolute;top:280px;left: 270px;line-height:46px;font-size:16px;color:#fff;text-align:center;font-family:'Microsoft YaHei';}
+	#custUpgrade .gradeGift{
+		/*border: 1px solid #020202;*/
+	    bottom: 122px;
+	    height: 42px;
+	    left: 290px;
+	    width: 176px;
+		position: absolute;/*绝对定位*/
+	    cursor: pointer; /*手抓形状*/
+	}
+	#custUpgrade .custMember{
+		/*border: 1px solid #020202;*/
+		display: none;
+	    bottom: 223px;
+	    height: 79px;
+	    left: 379px;
+	    width: 214px;
+            position: absolute;/*绝对定位*/
+            cursor: pointer; /*手抓形状*/
+	}
+        #custUpgrade .custMember span {width:214px;height:46px;display:block;line-height:46px;text-align:center;font-size:16px;color:#fff;font-family:'Microsoft YaHei';margin-top:32px;}
+	

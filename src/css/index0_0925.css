@@ -1,0 +1,137 @@
+/* CSS Document */
+
+
+/*banner*/
+#banner{  width:100%;  overflow:hidden; position:relative;}
+#banner ul{}
+#banner ul li{ position:relative;  float:left;}
+#banner ul li img{ width:100%;}
+#aPrev, #aNext{ display:none; position:absolute; top:40%; display:block;  z-index:11; }
+#aPrev{ left:20px;}
+#aNext{ right:20px;}
+#banner .btm_btns{ position:absolute; bottom:20px;  display:inline-block; width:100%;  text-align:center; }
+#banner .btm_btns span{ display:inline-block;zoom:1; *display:inline;margin:0 5px; background:url(../../images/ico-normal.png) no-repeat; width:10px; height:10px; cursor:pointer;}
+#banner .btm_btns span.active{ background:url(../../images/ico-active.png) no-repeat;}
+.banner-txt{ position:absolute; top:20%; left:7%; font-size:14px; min-width:26%;}
+.bannerBg{ /*background:#f05133;  padding:20px 40px;*/  }
+.bannerBg p {position:absolute; top:160%;left:9.3%;}
+.bannerBg img{opacity:0}
+#banner ul li .bannerBg img{ width:auto; display:block; margin-bottom:22px;}
+.bannerBg h3{ font-size:3em; color:#f05033; /*font-weight:bold;*/}
+.bannerBg .pTxt16{ font-size:2em; color:#fff;}
+.bannerBg .pTxt14{ font-size:1em; color:#fff; margin-bottom:10px;}
+.bannerBg a{ position:relative; display:inline-block; padding:4px 17px;  text-align:center;  margin-right:10px;font-size:13px;}
+/*.bannerBg a:hover{ color:red; }*/
+.bannerBg a.buy{ background:#F05133; border:1px solid #F05133;}
+.bannerBg a.more{ border:1px solid #fff; color:#fff;}
+.bannerBg a.blackC { border-color:#000; color:#000;}
+.bannerBg a.blackC i.flag-black{  background:url(../../images/flag-black-10X10_3.gif) no-repeat; }
+.bannerBg a i{ display:block; position:absolute; right:2px; top:2px;  width:9px; height:9px; z-index:2;}
+.bannerBg a i.flag-white{  background:url(../../images/flag-black-10X10_1.gif) no-repeat; }
+.bannerBg a i.flag-black{  background:url(../../images/flag-black-10X10_1.gif) no-repeat; }
+
+.aMap{position:absolute; left:30%; top:0; width:60%; height:100%; background: url(../../images/bg-blank.gif) repeat;}
+.banner1_lj{position:absolute; left:23%; top:73%; width:5.5%; height:6%; background: url(../../images/bg-blank.gif) repeat;}
+.banner1_xq{position:absolute; left:45.5%; top:73%; width:8%; height:7%; background: url(../../images/bg-blank.gif) repeat;}
+.banner1_ct{position:absolute; left:70%; top:73%; width:5.5%; height:6%; background: url(../../images/bg-blank.gif) repeat;}
+.banner2_jl{position:absolute; left:11%; top:73%; width:12%; height:11%; background: url(../../images/bg-blank.gif) repeat;}
+.banner2_jr{position:absolute; left:23%; top:73%; width:12%; height:11%; background: url(../../images/bg-blank.gif) repeat; }
+.banner2_rr{position:absolute; right:0; top:0; width:60%; height:100%; display:block;background: url(../../images/bg-blank.gif) repeat; }
+.banner4_kx{position:absolute; left:14.8%; top:60%; width:6.5%; height:6%;background: url(../../images/bg-blank.gif) repeat;}
+.banner4_sj{position:absolute; left:78.8%; top:60%; width:6.5%; height:6%;background: url(../../images/bg-blank.gif) repeat;}
+.tianm{ position:absolute; left:23%; top:73%; width:100px; height:50px;background: url(../../images/bg-blank.gif) repeat;}
+.liaojie{ position:absolute; left:45%; top:73%; width:145px; height:50px;background: url(../../images/bg-blank.gif) repeat;}
+.shoufa{ position:absolute; left:69.5%; top:73%; width:100px; height:50px;background: url(../../images/bg-blank.gif) repeat;}
+.banner1_l{position:absolute; left:10%; top:0; width:40%; height:100%; background: url(../../images/bg-blank.gif) repeat;}
+.banner1_r{position:absolute; right:10%; top:0; width:40%; height:100%; background: url(../../images/bg-blank.gif) repeat;}
+.banner902_rr{position:absolute; right:30%; top:70%; width:10%; height:10%;background: url(../../images/bg-blank.gif) repeat; }
+/*@media screen and (min-width: 1200px) {
+	.banner-txt h3{ font-size:4em; color:#f05033; font-weight:bold;}
+	.banner-txt .pTxt16{ font-size:3em; color:#fff;}
+	.banner-txt .pTxt14{ font-size:2em; color:#fff;}
+	.banner-txt { font-size:14px;}
+}
+
+@media all and (min-width:1024px) and (max-width:1199px)
+{
+	.banner-txt h3{ font-size:3em; color:#f05033; font-weight:bold;}
+	.banner-txt .pTxt16{ font-size:2em; color:#fff;}
+	.banner-txt .pTxt14{ font-size:1em; color:#fff;}
+	.banner-txt { font-size:12px;}
+}
+
+
+@media all and (min-width:960px) and (max-width:1023px)
+{
+	.banner-txt h3{ font-size:2em; color:#f05033; font-weight:bold;}
+	.banner-txt .pTxt16{ font-size:1em; color:#fff;}
+	.banner-txt .pTxt14{ font-size:px; color:#fff;}
+	.banner-txt { font-size:11px;}
+}
+*/
+
+/*å…³æ³¨*/
+#focusElement{position:relative;  width:100%; margin-bottom:25px;  overflow:hidden; background:#000; min-width:1200px;}
+#focusElement h3{ text-align:center; color:#fff; font-size:20px; margin-top:20px; margin-bottom:12px;}
+#focusImg { position:absolute; left:0; top:0; z-index:-1; display:block; width:100%;}
+.sortListBd{ width:100%;}
+#focusElement .arrowlist{ position:absolute; top:50%;}
+#focusElement #prev{ left:4%; background:url(../../images/arrowlist-prev.gif); width:20px; height:35px; z-index:2;}
+#focusElement #next{ right:4%;background:url(../../images/arrowlist-next.gif); width:20px; height:35px; z-index:2;}
+.sortElement{ position:relative; display:none; color:#f05133; font-size:16px; width:80%; min-width:1200px; margin:0 auto; padding-bottom:20px;  filter:alpha(opacity=0); opacity:0; }
+.sortElement img{display:inline-block;}
+.sortElement dl, .sortElement dl dt, .sortElement dl dd{ float:left;}
+.sortElement dl{ position:relative; margin:0 4.2% 20px 4.2%; /*margin:0 3.5%;*/}
+.sortElement dl dt img { display:block; width:100%;}
+.sortElement dl dt a.list-toggle .active{ display:none;}
+.sortElement dl dt a.list-toggle:hover .active{ display:block; }
+.sortElement dl dt a.list-toggle:hover .normal{ display:none;}
+
+.weChatClick{ background:url(../../images/list-weixin-normal.png) no-repeat; width:23px; height:22px;}
+.weChatClick:hover{  background:url(../../images/list-weixin-active.png) no-repeat;}
+
+.btnWeibo{  background:url(../../images/list-weibo-normal.png) no-repeat; width:23px; height:22px;}
+.btnWeibo:hover{  background:url(../../images/list-weibo-active.png) no-repeat;}
+
+.btnWeChat{ display:none; position:absolute; left:-10px; top:-8px; z-index:111;}
+.sortElement dl dt{ width:66px; margin-right:4px;}
+.sortElement dl dd{ /*width:100px;*/ padding-top:10px;}
+.sortElement dl dd h4{ margin-bottom:5px; font-size:16px; /*font-weight:bold;*/ color:#fff;}
+.sortElement dl dd p{ /*text-align:center;*/}
+.sortElement dl dd p a{ display:inline-block;}
+.btnMore{ /*text-align:center;*/ padding-bottom:20px;}
+.btnMore a{ display:inline-block; background:url(../../images/ico-more.png) no-repeat; width:125px; height:40px; line-height:40px; color:#f05133; text-indent:.5em; font-size:16px;}
+.hideList{ display:none;}
+.hideList dl{ width:25%; }
+
+/**/
+#state{ width:100%; background:#fff; color:#575551; margin-bottom:30px;}
+.stateBd{margin:0 auto;}
+.stateWidth800{width:800px; }
+.stateWidth860{ width:860px; }
+.stateWidth800 dl{ width:33.3%; }
+.stateWidth860 dl{ width:25%; }
+#state a{ color:#575551;}
+#state a:hover{ color:#c5280b;}
+#state dl, #state dl dt, #state dl dd{ float:left;}
+#state dl dt{ margin-right:10px; }
+#state dl dd{margin-top:12px; border-left:1px solid #2d2a26; padding-left:15px;}
+#state dl dd h4{ margin-bottom:2px; font-size:20px;}
+#state dl dd p{ text-align:center; font-family:"å¾®è½¯é›…é»‘"}
+#state dl dd p a{ font-size:12px; display:inline-block;}
+
+
+/*#banner ul li .btns { position:absolute; left:10%; bottom:20%; display:block; }
+#banner ul li .btns .hold { display:block; width:100%;}
+#banner ul li .a_buy { position:absolute; left:0; top:0; display:block; width:45%; height:100%;}
+#banner ul li .a_more { position:absolute; right:0; top:0; display:block; width:45%; height:100%;}*/
+.sp_box p.btns {position:absolute; top:73%; left:9.5%;}
+.sp_box p.btns a{ position:relative; display:inline-block; padding:4px 17px;  text-align:center;  margin-right:10px;font-size:13px;}
+.sp_box p.btns a.buy{ background:#F05133; border:1px solid #F05133;}
+.sp_box p.btns a.more{ border:1px solid #fff; color:#fff;}
+.sp_box p.btns a.blackC { border-color:#000; color:#000;}
+.sp_box p.btns a.blackC i.flag-black{  background:url(../../images/flag-black-10X10_3.gif) no-repeat; }
+.sp_box p.btns a i{ display:block; position:absolute; right:2px; top:2px;  width:9px; height:9px; z-index:2;}
+.sp_box p.btns a i.flag-white{  background:url(../../images/flag-black-10X10_1.gif) no-repeat; }
+.a i.flag-white{  background:url(../../images/flag-black-10X10_1.gif) no-repeat; }
+.sp_box p.btns a i.flag-black{  background:url(../../images/flag-black-10X10_1.gif) no-repeat; }

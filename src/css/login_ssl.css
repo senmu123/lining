@@ -1,0 +1,356 @@
+@charset "utf-8";
+
+#PG_Reg {
+	margin:0 auto;
+	width:990px;
+	background-color:#fff;
+	border-radius:7px;
+}
+#PG_Reg .PG_Reg_h {
+	float:left;
+	display:none;
+}
+#PG_Reg .PG_Reg_h .l {
+	background:url("https://cdns.lining.com/shop/lining/theme/theme/xth2/images/user/white_left_corner.png") no-repeat scroll 0 0 transparent;
+	float:left;
+	height:19px;
+	width:10px;
+}
+#PG_Reg .PG_Reg_h .m {
+	background:none repeat scroll 0 0 #FFF;
+	float:left;
+	height:19px;
+	width:940px;
+}
+
+#PG_Reg .PG_Reg_h .r {
+	background:url("https://cdns.lining.com/shop/lining/theme/xth2/images/user/white_right_corner.png") no-repeat scroll 0 0 transparent;
+	float:right;
+	height:19px;
+	width:10px;
+}
+
+#PG_Reg .PG_Reg_body .PG_Reg_header {
+	height: 78px;
+	line-height: 78px;
+	margin: 0 90px;
+	border-bottom: 1px dashed #e2e2e2;
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+	font-family: '微软雅黑';
+}
+#PG_Reg .PG_Reg_body .PG_Reg_header .PG_Login_title {
+	background:url("https://cdns.lining.com/shop/lining/theme/xth2/images/user/login_title.gif") no-repeat scroll 0 0 transparent;
+	width:159px;
+	height:27px;
+}
+#PG_Reg .PG_Reg_body .PG_Reg_header .PG_Password_Reset_title {
+	background:url("https://cdns.lining.com/shop/lining/theme/xth2/images/user/password_reset_title.gif") no-repeat scroll 0 0 transparent;
+	height:27px;
+	width:159px;
+}
+
+.PG_Reg_content {
+	overflow:auto;
+	zoom:1;
+	margin:0 90px;
+}
+#register_banner{
+	text-align:center;
+	padding-bottom:20px;
+}
+.PG_Reg_content .line {
+	width:374px;
+	margin: 0 auto 22px;
+	-moz-box-sizing: border-box;  
+     -webkit-box-sizing: border-box; 
+     -o-box-sizing: border-box; 
+     -ms-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+.PG_Reg_content .notice_error {
+	background: url('https://cdns.lining.com/shop/lining/theme/xth2/images/login_register/error.png') no-repeat 10px 13px;
+	width:374px;
+	+width: 334px;
+	margin: 0 auto 4px;
+	height: 45px;
+	line-height: 45px;
+	background-color: #fff1f1;
+	border: 1px solid #ee2737;
+	padding-left: 38px;
+	box-sizing: border-box;
+	font-size: 15px;
+	color: #808080;
+	font-family: '微软雅黑';
+	display: none;
+}
+
+#login_loadding{
+	background: #ee2737 none repeat scroll 0 0;
+    color: #ffffff;
+    display: none;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+    width: 374px;
+    margin: 0 auto 22px;
+}
+.relative-posit {
+	position: relative;
+}
+.PG_Reg_content .login-a-href a{
+	color: #808080;
+	font-family: '微软雅黑';
+	font-size: 15px;
+}
+.PG_Reg_content .login-a-href::after{clear: both;}
+
+
+.PG_Reg_content #yzm_img, .PG_Reg_content #yzm_pic {
+	cursor: pointer;
+	position: absolute;
+	top: 6px;
+	+top: 8px;
+	_top: 8px;
+	right: 4px;
+	+right: 4px;
+	height: 34px;
+}
+#mobile_dynamic_code{
+	background-color: #eeefef;
+    color: #808080;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    width: 116px;
+    position: absolute;
+	top: 0;
+	right: 0;
+}
+.PG_Reg_content .line .c1 {
+	float:left;
+	font-weight:bold;
+	height:40px;
+	line-height:40px;
+	padding-right:10px;
+	text-align:right;
+	width:90px;
+}
+.PG_Reg_content .line .c1 em {width:12px;height:12px;display:inline-block;}
+.PG_Reg_content .line .c2 {
+	float:left;
+	width:450px;
+}
+.PG_Reg_content input.ipt_t {
+	border: 1px solid #e2e2e2;
+	box-sizing: border-box;
+	width: 374px;
+	+width: 334px;
+	_width: 334px;
+	height: 45px;
+	line-height: 45px;
+	font-family: '微软雅黑';
+	font-size: 15px;
+	padding-left: 16px;
+	color: #555;
+}
+
+.PG_Reg_content input.user_icon{
+	/*background: url('https://cdns.lining.com/shop/lining/theme/xth2/images/login_register/user.png') no-repeat 8px 3px;*/
+}
+
+.PG_Reg_content input.passwd_icon{
+	/*background: url('https://cdns.lining.com/shop/lining/theme/xth2/images/login_register/pasword.png') no-repeat 8px 0;*/
+}
+.PG_Reg_content .line .c2 .c2b {
+	color:#666666;
+	margin-top:4px;
+}
+.PG_Reg_content input.ipt_vc {
+	background-position:0 -80px;
+	float:left;
+	width:80px;
+}
+.PG_Reg_content .line .c2 .c2t .base {
+	height:40px;
+	line-height:40px;
+}
+.p8 {
+	padding-left:8px;
+}
+.fl {
+	float:left;
+}
+.PG_Reg_content .line .c2 .c2t .small_line {
+	margin-bottom:10px;
+}
+a {
+	color:#404040;
+	text-decoration:none;
+}
+
+.button_hy_1 {
+	background:#ee2737;
+	color:#FFFFFF;
+	display:block;
+	font-size:18px;
+	height:45px;
+	line-height:45px;
+	text-decoration:none;
+	text-align:center;
+	font-family: '微软雅黑';
+}
+
+.PG_Reg_content input.ipt_vc:focus {
+	background-position:-100px -80px;
+}
+.item a {
+	color:#0778F9;
+}
+.note {
+	display:inline-block;
+	background:none repeat scroll 0 0 #FFEAEA;
+	border:1px solid #E5C3C4;
+	border-radius:2px 2px 2px 2px;
+	font-weight:bold;
+	min-height:22px;
+	line-height:22px;
+	padding:8px;
+	width:160px;
+	vertical-align:top;
+	color:#CC0000;
+}
+
+.save_btn {
+	background-color:#EE2D24;
+	border:1px solid #BB1008;
+	color:#FFFFFF !important;
+	cursor:pointer;
+	text-decoration:none !important;
+}
+
+.SendPasswordBtn {
+	font-weight:bold;
+	height:50px;
+	line-height:50px;
+	margin:0;
+	padding:0;
+	text-align:center;
+	width:200px;
+}
+.phone_process {
+	display:none;
+}
+
+.login_way{
+	margin-bottom:18px;
+}
+
+.login_way ul li {	
+	float: left;
+	width: 404px;
+	border-bottom: 5px solid #e2e2e2;
+	cursor: pointer;
+	height: 58px;
+	line-height: 66px;
+	text-align: center;
+	box-sizing: border-box;
+	font-family: '微软雅黑';
+	font-weight: bold;
+	font-size: 16px;
+	color: #a9a9a9;
+}
+
+.login_way ul li.cuA {
+	border-bottom: 5px solid #ee2737 !important;
+	color: #333333;
+}
+
+.get_code{
+	background:#f6f5fd;
+	border: 1px solid #e6e6e6;
+	cursor: pointer;
+	display: inline-block;
+	height: 38px;
+	line-height: 38px;
+	margin-left: 16px;
+	text-align: center;
+	width: 135px;
+}
+
+/*登录页面改版 2016-06-07*/
+.login_way ul::after{
+	content: '';
+	display: block;
+	clear:both;
+	width:0;
+	height:0;
+}
+
+.PG_Reg_content .login-a-href::after{
+	content: '';
+	display: block;
+	clear:both;
+	width:0;
+	height:0;
+}
+
+.PG_Reg_content .other-login-title {
+	color: #808080;
+    font-family: "微软雅黑";
+    font-size: 15px;
+}
+
+.PG_Reg_content .other-login-plat a{
+	display: inline-block;
+	height: 49px;
+	width: 50px;
+	*width: 53px;
+	_width: 53px;
+}
+
+.PG_Reg_content .other-login-plat a:hover{
+	background-image: url('https://cdns.lining.com/shop/lining/theme/xth2/images/login_register/union_login_active.png') !important;
+}
+
+.PG_Reg_content .other-login-plat .union_qq {
+	background: url('https://cdns.lining.com/shop/lining/theme/xth2/images/login_register/union_login.png') no-repeat 0 0;
+}
+
+.PG_Reg_content .other-login-plat .union_sina {
+	background: url('https://cdns.lining.com/shop/lining/theme/xth2/images/login_register/union_login.png') no-repeat -53px 0;
+}
+
+.PG_Reg_content .other-login-plat .union_alipay {
+	background: url('https://cdns.lining.com/shop/lining/theme/xth2/images/login_register/union_login.png') no-repeat -107px 0;
+}
+
+.PG_Reg_content .other-login-plat .union_renren {
+	background: url('https://cdns.lining.com/shop/lining/theme/xth2/images/login_register/union_login.png') no-repeat -160px 0;
+}
+
+.PG_Reg_content .other-login-plat .union_weixin {
+	background: url('https://cdns.lining.com/shop/lining/theme/xth2/images/login_register/union_login.png') no-repeat -213px 0;
+}
+
+.PG_Reg_content .other-login-plat .union_netease {
+	background: url('https://cdns.lining.com/shop/lining/theme/xth2/images/login_register/union_login.png') no-repeat -267px 0;
+}
+
+.PG_Reg_content .other-login-plat .union_wanlitong {
+	background: url('https://cdns.lining.com/shop/lining/theme/xth2/images/login_register/union_login.png') no-repeat -320px 0;
+}
+
+::-webkit-input-placeholder { color:#808080; }
+::-moz-placeholder { color:#808080; } /* firefox 19+ */
+:-ms-input-placeholder { color:#808080; } /* ie */
+input:-moz-placeholder { color:#808080; }
+.slideframe{box-shadow: 0px 0px 20px 1px #888888;border-radius:0.5em;overflow:hidden;height:165px;position: absolute; z-index: 1;top:230px;background:#efefef;}

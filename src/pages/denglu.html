@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <head>
+        <base href="https://store.lining.com"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="zh-CN" />
+    <title>李宁官方网站</title>
+    <meta name="Keywords" content="李宁，lining，li-ning，李宁鞋，包，服装，鞋，球，女装，帽子，服饰，衣服，女鞋，男装，篮球，T恤，羽毛球，外套，运动鞋，男鞋，卫衣，鞋子，羽绒服，运动服，背包，乒乓球，polo衫，钱包，牛仔裤，裙子，袜子，休闲鞋，运动器材，拖鞋，风衣，凉鞋，连衣裙，毛巾，羽毛球拍，背心，短裙，挎包，吊带，夹克，短裤，斜挎包，篮球鞋，乒乓，休闲裤，球鞋，李宁官方网站，李宁电子商城，李宁专卖店，李宁官方旗舰店。" />
+    <meta name="Description" content="李宁官方网站，为你展现李宁运动鞋、跑步鞋、篮球鞋、运动服、羽毛球拍、乒乓球拍、Polo、T恤、背包等专业运动装备。7天无理由退换货，300个城市货到付款。李宁，让改变发生，make the change。" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta property="qc:admins" content="151754653764161673072436375" />
+    <meta property="wb:webmaster" content="bebfa4568578b1d6" />
+    <meta http-equiv="cache-control" content="max-age=1800" />
+    <link rel="shortcut icon" href="https://cdns.lining.com/shop/lining/theme/xth2/images/headfooter/favicon.ico"/>
+    <!--解决IE6不支持png图片透明问题-->
+    <!--[if IE 6]>
+        <script type="text/javascript" src="https://cdns.lining.com/shop/lining/theme/xth2/js/DD_belatedPNG.js?v=1.0"></script>
+        <script type="text/javascript">
+        DD_belatedPNG.fix('*');
+        </script>
+    <![endif]-->
+    <!--/解决IE6不支持png图片透明问题-->
+    <link type="text/css" href="https://cdns.lining.com/shop/lining/theme/xth2/css/comm_header.css?v=20150335" rel="stylesheet" />
+    <link href="https://cdns.lining.com/shop/lining/theme/xth2/css/new_index.css?v=20150329" rel="stylesheet" type="text/css">   
+    <div id="float_head" style="min-width:1260px;width:100%;z-index:800;">
+        <div id="note_list" style="z-index:800;">
+            <div id="lining_common_top">
+                <div class="top_list_title">
+                    <div class="list_title_inner">
+                        <div class="navigation_left">
+                            <div class="logochar"></div>
+                            <div class="welcome" id="welcome"><a target='_blank' href="file:///E:/lining/src/pages/dengluzhuce.html" style="font-family: SimHei;">登录</a><div class="top_inter"></div><a  target='_blank' href="file:///E:/lining/src/pages/dengluzhuce.html" style="font-family: SimHei;">注册</a></div>
+                            <div class="top_inter"></div>
+                            <div class="shop-cart" id="" style="margin-left:0px;">
+                                <div class="cart-content">
+                                    <a target="_blank"href="https://store.lining.com/shop/showcartInfo.html" class="cart-nav">
+                                        <div class="cart_img"></div>
+                                    </a>
+                                </div>
+                                <div class="cart-list" id="cart_list"></div>
+                            </div>
+                            <div class="clear_both"></div>
+                        </div>
+    
+                        <div class="navigation_center">
+                            <div class="top_left_title">
+                                <!-- a href="http://www.lining.com/en" title="ENGLISH" target="_blank" style="color:#ee2737">ENGLISH</a>
+                                <div class="top_inter"></div -->
+                                <a href="https://store.lining.com/shop/memberCenter.html" title="我的李宁" target="_blank">我的李宁</a>
+                                <!--div class="top_inter"></div>
+                                <a href="https://store.lining.com/shop/memberClub.html" title="李宁CLUB" target="_blank">李宁CLUB</a -->
+                            </div>
+                            <div class="clear_both"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 公共javascript文件 -->
+    <script type="text/javascript" src="https://cdns.lining.com/shop/lining/theme/xth2/comm_js/jquery.js?v=20120627"></script>
+    <script type="text/javascript" src="https://cdns.lining.com/shop/lining/theme/xth2/comm_js/global.js?v=20150329"></script>
+    <script type="text/javascript">
+    
+    //修改字体
+    $('a,p,li,div,span,input,select,td').css('fontFamily','微软雅黑');
+    $('.list_title_inner').find('a').each(function(){
+        $(this).css('fontFamily','SimHei');
+    });
+    $('#footer_list *').css('fontFamily','SimHei');
+    $('#footer_list .content_detail a').css('fontFamily','微软雅黑');
+    
+    var global = {
+        img_path: "https://cdns.lining.com/shop/lining/theme/xth2/images",
+        file_path: "https://cdns.lining.com/shop/lining/theme/xth2",
+        href: window.location.host,
+        cookie_domain: "store.lining.com",
+        isSSL: 0
+    };
+    
+    $("base").attr("href", "https://" + global.href);
+    
+    // function show_custID ()  {
+// 	if (customer.cust_id == null)
+// 		$("#welcome").html("<a target='_blank' href=\"./dengluzhuce.html\" style=\"font-family: SimHei;\">登录</a><div class=\"top_inter\"></div><a  target='_blank' href=\"/shop/register.php\" style=\"font-family: SimHei;\">注册</a>");
+// 	else {
+//         if (Utils.len(customer.cust_id) > 20) {
+//         	customer.cust_id = Utils.sb_substr(customer.cust_id, 0, 18) + '...';
+//         }
+// 		$("#welcome").html("<a target='_blank' style=\"font-family: SimHei;\">欢迎您，" +customer.cust_id+ "</a><div class=\"top_inter\"></div><a target='_blank' href=\"/shop/logout.php\" style=\"font-family: SimHei;\">注销</a>");
+// 		unread.get_timestamp();
+// 	}
+// }
+// show_custID();
+    // </script>
+</body>
+</html>
